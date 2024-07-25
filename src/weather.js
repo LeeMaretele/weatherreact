@@ -63,6 +63,35 @@ export default function Weather() {
           </ul>
         </div>
       </div>
+      <footer>
+        <hr />
+        <p>
+          This project was coded by{" "}
+          <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Lerato
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/LeeMaretele/weatherreact"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on Github
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://brilliant-nasturtium-406296.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
